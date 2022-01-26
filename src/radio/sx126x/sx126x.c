@@ -22,9 +22,9 @@
  */
 #include <string.h>
 #include "utilities.h"
-#include "timer.h"
+#include "system/timer.h"
 #include "radio.h"
-#include "delay.h"
+#include "system/delay.h"
 #include "sx126x.h"
 #include "sx126x-board.h"
 

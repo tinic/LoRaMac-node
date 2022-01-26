@@ -23,7 +23,7 @@
  extern "C" {
 #endif
 
-#include "uart.h"
+#include "system/uart.h"
 
 /*!
  * Process characters received on the serial interface

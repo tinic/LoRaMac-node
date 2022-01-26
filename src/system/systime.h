@@ -22,8 +22,8 @@
  *
  * \author    MCD Application Team ( STMicroelectronics International )
  */
-#ifndef __SYS_TIME_H__
-#define __SYS_TIME_H__
+#ifndef __SEMTECH_SYS_TIME_H__
+#define __SEMTECH_SYS_TIME_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -32,7 +32,7 @@ extern "C"
 
 #include <stdint.h>
 #include "time.h"
-#include "timer.h"
+#include "system/timer.h"
 
 /*!
  * \brief Days, Hours, Minutes and seconds of systime.h
@@ -167,4 +167,4 @@ void SysTimeLocalTime( const uint32_t timestamp, struct tm *localtime );
 }
 #endif
 
-#endif // __SYS_TIME_H__
+#endif // __SEMTECH_SYS_TIME_H__

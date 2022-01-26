@@ -22,9 +22,9 @@
  */
 #include <string.h>
 #include "board.h"
-#include "gpio.h"
-#include "delay.h"
-#include "timer.h"
+#include "system/gpio.h"
+#include "system/delay.h"
+#include "system/timer.h"
 #include "radio.h"
 
 #if defined( REGION_AS923 )

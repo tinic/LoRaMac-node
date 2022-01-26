@@ -51,7 +51,7 @@
 #include <hpl_irq.h>
 
 #include "board-config.h"
-#include "gpio.h"
+#include "system/gpio.h"
 #include "hw_timer.h"
 
 

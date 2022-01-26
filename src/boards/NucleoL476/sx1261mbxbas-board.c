@@ -24,7 +24,7 @@
 #include "utilities.h"
 #include "board-config.h"
 #include "board.h"
-#include "delay.h"
+#include "system/delay.h"
 #include "radio.h"
 #include "sx126x-board.h"
 

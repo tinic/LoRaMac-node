@@ -21,11 +21,11 @@
  * \author    Gregory Cristian ( Semtech )
  */
 #include "delay-board.h"
-#include "delay.h"
+#include "system/delay.h"
 
 void Delay( float s )
 {
-    DelayMs( s * 1000.0f );
+    DelayMs( (uint32_t)(s * 1000.0f) );
 }
 
 void DelayMs( uint32_t ms )

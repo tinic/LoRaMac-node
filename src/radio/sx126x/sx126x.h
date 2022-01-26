@@ -31,8 +31,8 @@ extern "C"
 #include <stdint.h>
 #include <stdbool.h>
 #include <math.h>
-#include "gpio.h"
-#include "spi.h"
+#include "system/gpio.h"
+#include "system/spi.h"
 #include "radio.h"
 
 #define SX1261                                      1

@@ -22,8 +22,8 @@
  */
 #include <stdbool.h>
 #include "utilities.h"
-#include "delay.h"
-#include "i2c.h"
+#include "system/delay.h"
+#include "system/i2c.h"
 #include "mpl3115.h"
 
 extern I2c_t I2c;

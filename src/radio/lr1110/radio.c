@@ -21,8 +21,8 @@
 #include <math.h>
 #include <string.h>
 #include "utilities.h"
-#include "timer.h"
-#include "delay.h"
+#include "system/timer.h"
+#include "system/delay.h"
 #include "radio.h"
 #include "lr1110.h"
 #include "lr1110_hal.h"

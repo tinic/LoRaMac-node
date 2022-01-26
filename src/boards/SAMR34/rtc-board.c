@@ -26,9 +26,9 @@
 #include <hw_timer.h>
 #include "board-config.h"
 #include "board.h"
-#include "timer.h"
-#include "systime.h"
-#include "gpio.h"
+#include "system/timer.h"
+#include "system/systime.h"
+#include "system/gpio.h"
 
 #include "rtc-board.h"
 

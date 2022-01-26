@@ -22,9 +22,9 @@
  */
 #include "board-config.h"
 #include "board.h"
-#include "gpio.h"
-#include "gps.h"
-#include "uart.h"
+#include "system/gpio.h"
+#include "system/gps.h"
+#include "system/uart.h"
 #include "lpm-board.h"
 #include "rtc-board.h"
 #include "gps-board.h"

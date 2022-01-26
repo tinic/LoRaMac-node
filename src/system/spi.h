@@ -20,15 +20,15 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __SPI_H__
-#define __SPI_H__
+#ifndef __SEMTECH_SPI_H__
+#define __SEMTECH_SPI_H__
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
-#include "gpio.h"
+#include "system/gpio.h"
 
 /*!
  * SPI peripheral ID
@@ -106,4 +106,4 @@ uint16_t SpiInOut( Spi_t *obj, uint16_t outData );
 }
 #endif
 
-#endif // __SPI_H__
+#endif // __SEMTECH_SPI_H__

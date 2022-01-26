@@ -24,8 +24,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __GPIO_H__
-#define __GPIO_H__
+#ifndef __SEMTECH_GPIO_H__
+#define __SEMTECH_GPIO_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -188,4 +188,4 @@ uint32_t GpioRead( Gpio_t *obj );
 }
 #endif
 
-#endif // __GPIO_H__
+#endif // __SEMTECH_GPIO_H__

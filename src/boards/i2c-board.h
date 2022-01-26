@@ -30,7 +30,7 @@ extern "C"
 
 #include <stdint.h>
 #include <stdbool.h>
-#include "i2c.h"
+#include "system/i2c.h"
 
 /*!
  * Operation Mode for the I2C

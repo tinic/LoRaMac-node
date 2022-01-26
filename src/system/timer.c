@@ -23,7 +23,7 @@
 #include "utilities.h"
 #include "board.h"
 #include "rtc-board.h"
-#include "timer.h"
+#include "system/timer.h"
 
 /*!
  * Safely execute call back

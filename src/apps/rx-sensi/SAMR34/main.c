@@ -28,8 +28,8 @@
  * \author    Marten Lootsma(TWTG) on behalf of Microchip/Atmel (c)2017
  */
 #include "board.h"
-#include "gpio.h"
-#include "timer.h"
+#include "system/gpio.h"
+#include "system/timer.h"
 #include "radio.h"
 
 #if defined( REGION_AS923 )

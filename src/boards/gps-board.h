@@ -28,7 +28,7 @@ extern "C"
 {
 #endif
 
-#include "uart.h"
+#include "system/uart.h"
 
 /*!
  * Select the edge of the PPS signal which is used to start the

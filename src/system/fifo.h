@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __FIFO_H__
-#define __FIFO_H__
+#ifndef __SEMTECH_FIFO_H__
+#define __SEMTECH_FIFO_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -94,4 +94,4 @@ bool IsFifoFull( Fifo_t *fifo );
 }
 #endif
 
-#endif // __FIFO_H__
+#endif // __SEMTECH_FIFO_H__

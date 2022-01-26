@@ -26,7 +26,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include "utilities.h"
-#include "timer.h"
+#include "system/timer.h"
 #include "Commissioning.h"
 #include "NvmDataMgmt.h"
 #include "radio.h"

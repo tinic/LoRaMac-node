@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __ADC_H__
-#define __ADC_H__
+#ifndef __SEMTECH_ADC_H__
+#define __SEMTECH_ADC_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -29,7 +29,7 @@ extern "C"
 #endif
 
 #include <stdint.h>
-#include "gpio.h"
+#include "system/gpio.h"
 
 /*!
  * ADC object type definition
@@ -67,4 +67,4 @@ uint16_t AdcReadChannel( Adc_t *obj, uint32_t channel );
 }
 #endif
 
-#endif // __ADC_H__
+#endif // __SEMTECH_ADC_H__

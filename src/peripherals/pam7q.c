@@ -21,7 +21,7 @@
  * \author    Gregory Cristian ( Semtech )
  */
 #include "utilities.h"
-#include "i2c.h"
+#include "system/i2c.h"
 #include "pam7q.h"
 
 extern I2c_t I2c;

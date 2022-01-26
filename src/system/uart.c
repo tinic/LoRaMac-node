@@ -21,7 +21,7 @@
  * \author    Gregory Cristian ( Semtech )
  */
 #include "uart-board.h"
-#include "uart.h"
+#include "system/uart.h"
 
 void UartInit( Uart_t *obj, UartId_t uartId, PinNames tx, PinNames rx )
 {

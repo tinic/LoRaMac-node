@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __DELAY_H__
-#define __DELAY_H__
+#ifndef __SEMTECH_DELAY_H__
+#define __SEMTECH_DELAY_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -44,5 +44,5 @@ void DelayMs( uint32_t ms );
 }
 #endif
 
-#endif // __DELAY_H__
+#endif // __SEMTECH_DELAY_H__
 

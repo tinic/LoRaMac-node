@@ -24,7 +24,7 @@
  */
 #include <stdio.h>
 #include "rtc-board.h"
-#include "systime.h"
+#include "system/systime.h"
 
 #define END_OF_FEBRUARY_LEAP                         60 //31+29
 #define END_OF_JULY_LEAP                            213 //31+29+...

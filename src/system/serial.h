@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __SERIAL_H__
-#define __SERIAL_H__
+#ifndef __SEMTECH_SERIAL_H__
+#define __SEMTECH_SERIAL_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -32,4 +32,4 @@ extern "C"
 }
 #endif
 
-#endif // __SERIAL_H__
+#endif // __SEMTECH_SERIAL_H__

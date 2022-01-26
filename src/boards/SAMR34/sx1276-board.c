@@ -26,7 +26,7 @@
 #include <hal_ext_irq.h>
 #include <hal_gpio.h>
 #include "board-config.h"
-#include "delay.h"
+#include "system/delay.h"
 #include "radio.h"
 #include "sx1276-board.h"
 

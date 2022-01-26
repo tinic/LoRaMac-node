@@ -22,8 +22,8 @@
  */
 #include "board-config.h"
 #include "board.h"
-#include "gpio.h"
-#include "timer.h"
+#include "system/gpio.h"
+#include "system/timer.h"
 #include "radio.h"
 
 #if defined( REGION_AS923 )

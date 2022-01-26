@@ -27,10 +27,10 @@
 #include "utilities.h"
 #include "board-config.h"
 #include "board.h"
-#include "gpio.h"
-#include "uart.h"
+#include "system/gpio.h"
+#include "system/uart.h"
 #include "RegionCommon.h"
-#include "gps.h"
+#include "system/gps.h"
 #include "mpl3115.h"
 
 #include "cli.h"

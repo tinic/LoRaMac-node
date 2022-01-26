@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __BOARD_H__
-#define __BOARD_H__
+#ifndef __SEMTECH_BOARD_H__
+#define __SEMTECH_BOARD_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -129,4 +129,4 @@ Version_t BoardGetVersion( void );
 }
 #endif
 
-#endif // __BOARD_H__
+#endif // __SEMTECH_BOARD_H__

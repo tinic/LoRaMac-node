@@ -20,7 +20,7 @@
 #include <stdlib.h>
 #include "utilities.h"
 #include "board-config.h"
-#include "delay.h"
+#include "system/delay.h"
 #include "rtc-board.h"
 #include "radio.h"
 

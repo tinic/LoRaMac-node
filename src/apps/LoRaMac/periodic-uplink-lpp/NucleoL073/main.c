@@ -26,8 +26,8 @@
 #include "../../common/githubVersion.h"
 #include "utilities.h"
 #include "board.h"
-#include "gpio.h"
-#include "uart.h"
+#include "system/gpio.h"
+#include "system/uart.h"
 #include "RegionCommon.h"
 
 #include "cli.h"

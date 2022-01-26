@@ -28,7 +28,7 @@ extern "C"
 {
 #endif
 
-#include "adc.h"
+#include "system/adc.h"
 
 /*!
  * \brief Initializes the ADC object and MCU peripheral

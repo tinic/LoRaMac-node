@@ -22,7 +22,7 @@
  */
 #include <stdbool.h>
 #include "utilities.h"
-#include "i2c.h"
+#include "system/i2c.h"
 #include "mma8451.h"
 
 extern I2c_t I2c;

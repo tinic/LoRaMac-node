@@ -29,7 +29,7 @@ extern "C"
 #endif
 
 #include <stdint.h>
-#include "uart.h"
+#include "system/uart.h"
 
 /*!
  * \brief Initializes the UART object and MCU peripheral

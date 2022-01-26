@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __I2C_H__
-#define __I2C_H__
+#ifndef __SEMTECH_I2C_H__
+#define __SEMTECH_I2C_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -29,7 +29,7 @@ extern "C"
 #endif
 
 #include "utilities.h"
-#include "gpio.h"
+#include "system/gpio.h"
 
 /*!
  * I2C peripheral ID
@@ -157,4 +157,4 @@ LmnStatus_t I2cReadMemBuffer( I2c_t *obj, uint8_t deviceAddr, uint16_t addr, uin
 }
 #endif
 
-#endif // __I2C_H__
+#endif // __SEMTECH_I2C_H__

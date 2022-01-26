@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __UTILITIES_H__
-#define __UTILITIES_H__
+#ifndef __SEMTECH_UTILITIES_H__
+#define __SEMTECH_UTILITIES_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -211,4 +211,4 @@ void BoardCriticalSectionEnd( uint32_t *mask );
 }
 #endif
 
-#endif // __UTILITIES_H__
+#endif // __SEMTECH_UTILITIES_H__

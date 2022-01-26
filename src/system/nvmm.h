@@ -30,8 +30,8 @@
  *
  * \author    Johannes Bruder ( STACKFORCE )
  */
-#ifndef __NVMM_H__
-#define __NVMM_H__
+#ifndef __SEMTECH_NVMM_H__
+#define __SEMTECH_NVMM_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -90,4 +90,4 @@ bool NvmmReset( uint16_t size, uint16_t offset );
 }
 #endif
 
-#endif // __NVMM_H__
+#endif // __SEMTECH_NVMM_H__

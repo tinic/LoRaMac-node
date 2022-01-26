@@ -23,7 +23,7 @@
 #include <stdlib.h>
 #include "utilities.h"
 #include "board-config.h"
-#include "delay.h"
+#include "system/delay.h"
 #include "radio.h"
 #include "sx1272-board.h"
 

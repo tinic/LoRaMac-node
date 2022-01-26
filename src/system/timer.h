@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __TIMER_H__
-#define __TIMER_H__
+#ifndef __SEMTECH_TIMER_H__
+#define __SEMTECH_TIMER_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -154,4 +154,5 @@ void TimerProcess( void );
 }
 #endif
 
-#endif // __TIMER_H__
+#endif // __SEMTECH_TIMER_H__
+

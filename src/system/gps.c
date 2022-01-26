@@ -29,7 +29,7 @@
 #include "board.h"
 #include "rtc-board.h"
 #include "gps-board.h"
-#include "gps.h"
+#include "system/gps.h"
 
 #define TRIGGER_GPS_CNT                             10
 
@@ -117,23 +117,23 @@ void GpsConvertPositionIntoBinary( void )
     if( Latitude >= 0 ) // North
     {
         temp = Latitude * MaxNorthPosition;
-        LatitudeBinary = temp / 90;
+        LatitudeBinary = (int32_t)(temp / 90);
     }
     else                // South
     {
         temp = Latitude * MaxSouthPosition;
-        LatitudeBinary = temp / 90;
+        LatitudeBinary = (int32_t)(temp / 90);
     }
 
     if( Longitude >= 0 ) // East
     {
         temp = Longitude * MaxEastPosition;
-        LongitudeBinary = temp / 180;
+        LongitudeBinary = (int32_t)(temp / 180);
     }
     else                // West
     {
         temp = Longitude * MaxWestPosition;
-        LongitudeBinary = temp / 180;
+        LongitudeBinary = (int32_t)(temp / 180);
     }
 }
 

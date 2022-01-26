@@ -20,16 +20,16 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __UART_H__
-#define __UART_H__
+#ifndef __SEMTECH_UART_H__
+#define __SEMTECH_UART_H__
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
-#include "fifo.h"
-#include "gpio.h"
+#include "system/fifo.h"
+#include "system/gpio.h"
 
 /*!
  * UART peripheral ID
@@ -192,4 +192,4 @@ uint8_t UartGetBuffer( Uart_t *obj, uint8_t *buffer, uint16_t size, uint16_t *nb
 }
 #endif
 
-#endif // __UART_H__
+#endif // __SEMTECH_UART_H__

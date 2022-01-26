@@ -20,7 +20,7 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#include "fifo.h"
+#include "system/fifo.h"
 
 static uint16_t FifoNext( Fifo_t *fifo, uint16_t index )
 {

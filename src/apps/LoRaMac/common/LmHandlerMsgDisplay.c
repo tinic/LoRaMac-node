@@ -24,7 +24,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "utilities.h"
-#include "timer.h"
+#include "system/timer.h"
 
 #include "LmHandlerMsgDisplay.h"
 

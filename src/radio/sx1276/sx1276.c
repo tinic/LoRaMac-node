@@ -25,9 +25,9 @@
 #include <math.h>
 #include <string.h>
 #include "utilities.h"
-#include "timer.h"
+#include "system/timer.h"
 #include "radio.h"
-#include "delay.h"
+#include "system/delay.h"
 #include "sx1276.h"
 #include "sx1276-board.h"
 

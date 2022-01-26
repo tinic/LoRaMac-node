@@ -23,7 +23,7 @@
 #include "stm32l4xx.h"
 #include "utilities.h"
 #include "board.h"
-#include "gpio.h"
+#include "system/gpio.h"
 #include "spi-board.h"
 
 static SPI_HandleTypeDef SpiHandle[2];

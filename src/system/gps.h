@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __GPS_H__
-#define __GPS_H__
+#ifndef __SEMTECH_GPS_H__
+#define __SEMTECH_GPS_H__
 
 #ifdef __cplusplus
 extern "C"
@@ -160,4 +160,4 @@ void GpsResetPosition( void );
 }
 #endif
 
-#endif // __GPS_H__
+#endif // __SEMTECH_GPS_H__
