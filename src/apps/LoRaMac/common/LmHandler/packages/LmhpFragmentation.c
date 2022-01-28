@@ -23,6 +23,8 @@
 #include "LmhpFragmentation.h"
 #include "FragDecoder.h"
 
+#include <memory.h>
+
 /*!
  * LoRaWAN Application Layer Fragmented Data Block Transport Specification
  */
