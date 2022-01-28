@@ -331,6 +331,7 @@ static void LmhpFragmentationOnMcpsIndication( McpsIndication_t *mcpsIndication 
                 FragSessionData_t fragSessionData;
                 uint8_t status = 0x00;
 
+                memset(&fragSessionData, 0, sizeof(fragSessionData));
                 fragSessionData.FragGroupData.FragSession.Value = mcpsIndication->Buffer[cmdIndex++];
                 
                 fragSessionData.FragGroupData.FragNb =  ( mcpsIndication->Buffer[cmdIndex++] << 0 ) & 0x00FF;

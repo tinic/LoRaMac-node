@@ -540,7 +540,7 @@ static bool IsPowerOfTwo( uint32_t x )
 
     for( uint8_t i = 0; i < 32; i++ )
     {
-        sumBit += ( x & ( 1 << i ) ) >> i;
+        sumBit += ( x & ( 1UL << i ) ) >> i;
     }
     if( sumBit == 1 )
     {
